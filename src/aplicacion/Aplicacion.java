@@ -24,6 +24,7 @@ public class Aplicacion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Hola, soy " + args[0]);
         System.out.println("Estudiante " + args[0] + " : ");
         System.out.println(veredicto(args[1], args[2]));
     }
